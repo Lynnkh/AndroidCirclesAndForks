@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BDA375"
+    tools:context=".boardingActivity">
+
+
+    <TextView
+        android:id="@+id/BoardiTitle"
+        android:layout_width="299dp"
+        android:layout_height="137dp"
+        android:gravity="center"
+        android:text="歡迎遊玩圈擇圈叉叉，請選擇模式!"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.062" />
+
+    <TextView
+        android:id="@+id/singleGameDs"
+        android:layout_width="150dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="32dp"
+        android:text="跟朋友來一局，進行雙人遊戲"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/friendbutton2"
+        app:layout_constraintVertical_bias="0.1" />
+
+    <Button
+        android:id="@+id/Singlebutton"
+        android:layout_width="160dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="32dp"
+        android:text="單人遊戲"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BoardiTitle"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/SingleGameDs"
+        android:layout_width="150dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="8dp"
+        android:text="跟電腦對決，進行單人遊戲"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Singlebutton"
+        app:layout_constraintVertical_bias="0.051" />
+
+    <Button
+        android:id="@+id/friendbutton2"
+        android:layout_width="160dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="32dp"
+        android:text="雙人模式"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SingleGameDs"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
